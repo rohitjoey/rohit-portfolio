@@ -3,12 +3,12 @@ import {
   FaEnvelope,
   FaFacebook,
   FaGithub,
+  FaInstagram,
   FaLinkedin,
-  FaTwitter,
 } from "react-icons/fa";
 import dog from "../assets/images/dog.jpg";
 
-const Skill = () => {
+const Card = () => {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-sm mx-auto bg-white shadow-xl rounded-xl p-5">
@@ -44,13 +44,13 @@ const Skill = () => {
           </a>
           <a
             href="https://github.com/rohitjoey "
-            className="text-lg p-1 mx-1 sm:p-2 sm:mx-2 sm:text-xl text-[#00acee] hover:bg-[#00acee] hover:text-white transition-colors duration-300 rounded-full"
+            className="text-lg p-1 mx-1 sm:p-2 sm:mx-2 sm:text-xl text-[#e95950] hover:bg-[#e95950] hover:text-white transition-colors duration-300 rounded-full"
           >
-            <FaTwitter />
-            <span class="sr-only">Twitter</span>
+            <FaInstagram />
+            <span class="sr-only">Instagram</span>
           </a>
           <a
-            href="https://github.com/rohitjoey "
+            href="mailto:roht.praz@gmail.com"
             className="text-lg p-1 mx-1 sm:p-2 sm:mx-2 sm:text-xl text-green-800 hover:bg-green-600 hover:text-white transition-colors duration-300 rounded-full"
           >
             <FaEnvelope />
@@ -69,4 +69,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Card;
